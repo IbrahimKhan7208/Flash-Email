@@ -177,7 +177,7 @@
         if(!emails){alert ("Enter Valid E-mail")}
 
         try{
-          let response = await axios.post('http://localhost:3000/api/send-flash-email', {emails: [emails]})
+          let response = await axios.post('https://flash-email.onrender.com/api/send-flash-email', {emails: [emails]})
           alert(`Email Sent To ${emails}`)
         }
         catch(error){
