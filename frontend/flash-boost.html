@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Flash Boost - Top216</title>
+  <script src="timer.js"></script>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      background-color: #ffffff;
+      color: #222;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .hero {
+      background-color: rgb(68, 200, 221);
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+      border-radius: 12px;
+    }
+
+    .hero h1 {
+      font-size: 36px;
+      margin: 0;
+    }
+
+    .hero p {
+      font-size: 18px;
+      margin: 10px 0 0 0;
+    }
+
+    .price {
+      font-size: 50px;
+      color: #e96429;
+      margin: 25px 0 5px;
+    }
+
+    .price del {
+      font-size: 22px;
+      color: #ffc5a6;
+    }
+
+    .section {
+      margin: 40px 0;
+    }
+
+    .section h2 {
+      font-size: 24px;
+      color: #038fa5;
+      margin-bottom: 10px;
+    }
+
+    .benefits {
+      list-style: none;
+      padding: 0;
+      line-height: 2em;
+    }
+
+    .benefits li::before {
+      content: "✅ ";
+    }
+
+    .cta {
+      display: inline-block;
+      background-color: #e53209;
+      color: white;
+      padding: 14px 25px;
+      border-radius: 8px;
+      font-size: 18px;
+      font-weight: bold;
+      text-decoration: none;
+      margin-top: 20px;
+      transition: background-color 0.3s ease;
+    }
+
+    .cta:hover {
+      background-color: #c12400;
+    }
+
+    .footer {
+      font-size: 14px;
+      text-align: center;
+      color: #555;
+      margin-top: 10px;
+    }
+
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 28px;
+      }
+
+      .price {
+        font-size: 40px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="hero">
+      <h1>🚀 Flash Boost Offer</h1>
+      <p>Supercharge your visibility for just <span class="price">$7 <del>$9</del></span></p>
+      <p>Offer ends in: </p>
+      <p class="timer" id="countdown" style="font-size: 40px;"><strong>48 : 00 : 00</strong></p>
+    </div>
+
+    <div class="section">
+      <h2>What You Get with Flash Boost</h2>
+      <ul class="benefits">
+        <li>50% more visibility on Top216.com</li>
+        <li>Pinned higher in trending sections</li>
+        <li>Reach thousands of active voters</li>
+        <li>Lasts for a full 48 hours</li>
+        <li>Limited-time $2 discount</li>
+      </ul>
+    </div>
+
+    <div style="text-align: center;">
+      <a class="cta" href="/subscribe/boost?tier=flash">Subscribe for $7</a>
+    </div>
+
+    <div class="footer">
+      *Offer valid through 11:59 PM UTC, two days from email delivery.
+    </div>
+  </div>
+
+</body>
+</html>
