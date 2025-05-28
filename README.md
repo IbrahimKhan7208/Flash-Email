@@ -55,6 +55,31 @@ Flash-Email/
 
 ---
 
+## 🖼️ UI Screenshots
+
+Here’s how the key pages of the Flash Email Tool look:
+
+### 🔹 Email Preview Page (`index.html`)
+> Form to send the promotional email and preview the offer card.
+
+![Email Preview](./screenshots/preview-page.png)
+
+---
+
+### 🔹 Raw Email Template (`raw-email.html`)
+> How the email content appears when delivered to an inbox.
+
+![Raw Email](./screenshots/raw-email.png)
+
+---
+
+### 🔹 Flash Boost Landing Page (`flash-boost.html`)
+> Campaign landing page with perks, CTA, and offer details.
+
+![Flash Boost Page](./screenshots/flash-boost.png)
+
+---
+
 ## 💻 How to Run Locally
 
 ### 1. Clone the repo
